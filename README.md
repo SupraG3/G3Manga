@@ -62,6 +62,4 @@ Pour lancer le projet, vous devrez ouvrir deux terminaux :
 Votre site e-commerce sera alors accessible sur http://localhost:3000 (ou un autre port si configuré différemment).
 Contact
 
-Pour toute question ou commentaire, n'hésitez pas à me contacter via le formulaire de contact de mon portfolio.
-
 Merci de visiter mon projet !
