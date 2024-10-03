@@ -1,64 +1,61 @@
-# Site E-commerce Manga
+# Manga E-commerce website
 
-Bienvenue sur le projet de site e-commerce dédié à l'univers manga ! Ce site vous permet d'acheter divers articles, allant des vêtements aux figurines et autres produits inspirés par vos mangas préférés.
+Welcome to the e-commerce site dedicated to the world of manga! This site allows you to buy various items, from clothes to figurines and other products inspired by your favorite mangas.
 
-## Contenu du Projet
+## Project content
 
-- **Vente de Produits** : Une plateforme pour explorer et acheter des articles variés liés à l'univers manga.
-- **Panier** : Ajoutez des produits à votre panier et gérez vos achats.
-- **Système d'authentification** : Créez un compte pour une expérience d'achat personnalisée.
+- **Product Sales**: A platform for exploring and buying various items related to the manga universe.
+- **Cart**: Add products to your cart and manage your purchases.
+- **Authentication System**: Create an account for a personalized shopping experience.
 
-## Technologies Utilisées
+## Technologies used
 
 - **MERN Stack** : 
-  - **MongoDB** : Base de données pour stocker les informations sur les produits et les utilisateurs.
-  - **Express.js** : Framework pour construire l'API.
-  - **React** : Bibliothèque JavaScript pour construire l'interface utilisateur.
-  - **Node.js** : Environnement d'exécution pour exécuter le code JavaScript côté serveur.
+  - **MongoDB**: Database for storing product and user information.
+  - **Express.js**: Framework for building the API.
+  - **React**: JavaScript library for building the user interface.
+  - **Node.js**: Runtime environment for executing server-side JavaScript code.
 
-## Prérequis
+## Prerequisites
 
-Avant de lancer le projet, assurez-vous d'avoir installé Node.js sur votre machine. Vous aurez également besoin de **npm** (qui est inclus avec Node.js).
+Before launching the project, make sure you have Node.js installed on your machine. You will also need **npm** (included with Node.js).
 
 ## Installation
 
-Pour installer les dépendances du projet, suivez ces étapes :
+To install project dependencies, follow these steps:
 
-1. **Clonez le dépôt** sur votre machine :
-   ```bash
+1. **Click on the repository** on your machine:
+   ```
    git clone https://votre-url-de-depot.git
-2. **Accédez au répertoire du projet** :
-    ```bash
-    cd votre-repertoire
-3. **Installez les dépendances pour le client** :
-    ```bash
+2. **Access the project directory**:
+    ```
+    cd your-directory
+3. **Install client dependencies**:
+    ```
     cd client
     npm install
-4. **Installez les dépendances pour le serveur** :
-    ```bash
+4. **Install dependencies for the server**:
+    ```
     cd ../server
     npm install
+## Launch the project
 
-## Lancer le Projet
+To launch the project, you'll need to open two terminals:
 
-Pour lancer le projet, vous devrez ouvrir deux terminaux :
-
-1. **Terminal pour le serveur :**
-- Accédez au répertoire du serveur :
-   ```bash
-   cd votre-repertoire/server
-- Lancez le serveur avec Nodemon :
-    ```bash
+1. **Server terminal:**
+- Go to the server directory :
+   ```
+   cd your-directory/server
+- Start the server with Nodemon:
+    ```
     nodemon server.js
-
-2. **Terminal pour le client :**
-- Accédez au répertoire du client :
-    ```bash
-    cd votre-repertoire/client
-- Lancez le client avec :
-    ```bash
+2. **Client terminal:**
+- Access the client directory:
+    ```
+    cd your-directory/client
+- Start the client with :
+    ```
     npm start
+Your e-commerce site will then be accessible on http://localhost:3000 (or another port if configured differently).
 
-Votre site e-commerce sera alors accessible sur http://localhost:3000 (ou un autre port si configuré différemment).
-
-Merci de visiter mon projet !
+Thank you for visiting my project!
