@@ -24,32 +24,40 @@ Avant de lancer le projet, assurez-vous d'avoir installé Node.js sur votre mach
 
 Pour installer les dépendances du projet, suivez ces étapes :
 
-1. Clonez le dépôt sur votre machine :
+1. **Clonez le dépôt** sur votre machine :
+   ```bash
    git clone https://votre-url-de-depot.git
-2. Accédez au répertoire du projet :
-   cd votre-repertoire
-3. Installez les dépendances pour le client :
-   cd client
-   npm install
-4. Installez les dépendances pour le serveur :
-   cd ../server
-   npm install
+2. **Accédez au répertoire du projet** :
+    ```bash
+    cd votre-repertoire
+3. **Installez les dépendances pour le client** :
+    ```bash
+    cd client
+    npm install
+4. **Installez les dépendances pour le serveur** :
+    ```bash
+    cd ../server
+    npm install
 
 ## Lancer le Projet
 
 Pour lancer le projet, vous devrez ouvrir deux terminaux :
 
-1. Terminal pour le serveur :
-   Accédez au répertoire du serveur :
+1. **Terminal pour le serveur :**
+- Accédez au répertoire du serveur :
+   ```bash
    cd votre-repertoire/server
-   Lancez le serveur avec Nodemon :
-   nodemon server.js
+- Lancez le serveur avec Nodemon :
+    ```bash
+    nodemon server.js
 
-2. Terminal pour le client :
-   Accédez au répertoire du client :
-   cd votre-repertoire/client
-   Lancez le client avec :
-   npm start
+2. **Terminal pour le client :**
+- Accédez au répertoire du client :
+    ```bash
+    cd votre-repertoire/client
+- Lancez le client avec :
+    ```bash
+    npm start
 
 Votre site e-commerce sera alors accessible sur http://localhost:3000 (ou un autre port si configuré différemment).
 
