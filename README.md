@@ -60,6 +60,5 @@ Pour lancer le projet, vous devrez ouvrir deux terminaux :
     npm start
 
 Votre site e-commerce sera alors accessible sur http://localhost:3000 (ou un autre port si configuré différemment).
-Contact
 
 Merci de visiter mon projet !
